@@ -1,6 +1,6 @@
 {
 	"Normal Hit Combos": {
-		"df,2,12;f,fp,2,2; While Rising ,2;uf,4;Low Parry ;During Hermit ,4": [
+		"df,2,12;f,fp,2,2; While Rising ,2;uf,4;Low Parry;During Hermit ,4": [
 			"db,1,3;d,3,2;During Hermit ,2,1;f,f;uf,34,12",
 			"f,2,3,4;During Hermit ,2,1;f,f;uf,34,12",
 			"f,3,12,4;f,4,4;f,f;uf,34,12"
