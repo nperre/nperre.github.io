@@ -29,7 +29,6 @@ var renderMovelist = function (charName, elem) {
 
 		//combos
 		var comboData = jsonData.combos;
-		console.log(jsonData.combos);
 		$.each(comboData, function (key, val) {
 			//setup row / col
 			var row = $("<div />").addClass("row justify-content-center");
