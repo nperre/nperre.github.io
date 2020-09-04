@@ -12,7 +12,7 @@
 			"THE FUCKIN CANE ( ,df,23, once a match )": "SSR;uf,3;df,1;d,3,2;During Hermit ,2,1;f,f;uf,34,12"
 		},
 		"Counter Hit Combos": {
-			"Counter ,b,12;Counter FC ,df,4,1;Counter ,f,fp,4m,2;Counter ,CH Hermit ,b,1;CH Hermit ,b,4": [
+			"Counter ,b,12;Counter FC ,df,4,1;Counter ,f,fp,4m,2;CH Hermit ,b,1;CH Hermit ,b,4": [
 				"db,1,3;d,3,2;During Hermit ,2,1;f,f;uf,34,12",
 				"f,2,3,4;During Hermit ,2,1;f,f;uf,34,12",
 				"f,3,12,4;f,4,4;f,f;uf,34,12"
