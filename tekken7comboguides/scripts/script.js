@@ -7,11 +7,29 @@ var getJSON = function (charName) {
 	);
 };
 
-var renderMovelist = function (charName) {
-	getJSON(charName).then(function (data) {
-		var container = $('.container');
+var renderMovelist = function (charName, elem) {
+	$('.active').removeClass('active');
+	$(elem).addClass('active');
 
-		$.each(data, function (key, val) {
+	getJSON(charName).then(function (jsonData) {
+		var container = $('.container');
+		//intro section
+		var introRow = $('<div class="row justify-content-center pb-5" />');
+		var introCol = $('<div class="col-6" />');
+		var introCard = $('<div class="card border-secondary" />');
+		var introHeader = $('<div class="card-header" style="font-size: 1.5em;" />').text(jsonData.name);
+		var introImg = $('<img class="card-img-bottom" src="" style="padding: 10px;" />').attr("src", jsonData.img);
+
+		//lazy appends
+		introCard.append(introHeader);
+		introCard.append(introImg);
+		introCol.append(introCard);
+		introRow.append(introCol);
+		container.append(introRow);
+
+		//combos
+		var comboData = jsonData.combos;
+		$.each(comboData, function (key, val) {
 			//setup row / col
 			var row = $("<div />").addClass("row justify-content-center");
 			var col = $("<div />").addClass("col-12");
@@ -101,5 +119,3 @@ function isButton(value) {
 function isButtonMiss(value) {
 	return /^-?\d+m$/.test(value);
 }
-
-renderMovelist("leroysmith");
