@@ -12,25 +12,25 @@
 			"Savage ,12" : "f,fp,3;SSR;db,2;df,1;db,2;f,fp,2,1",
 			"Savage ,1,2,1" : "df,1,fp;During Savage ,uf,3;df,4,1,fp;During Savage ,1,1;f,fp,2,1",
 			"db,1, (Held)" : "u,n;db,2;df,1,fp;During Savage ,df,1;df,2,2;f,fp,2,1",
-			"Instant Screw ( ,f,fp,3, ) " : "f,f;db,2;df,1;df,4,1,fp;During Savage ,1,2,1",
+			"Instant Screw ( ,f,fp,3, ) " : "f,f;db,2;df,1;df,4,1,fp;During Savage ,1,2,1"
 		},
 		"Counter Hit Combos": {
 			"Counter Hit ,f,2;Counter Hit ,b,1": [
 				"If Feeling Confident: SSR;db,2;df,1,fp;During Savage ,uf,3;3,4;f,fp,2,1",
 				"Safe: SSR;db,2;df,1,fp;During Savage ,3;3,4;f,fp,2,1"
 			],
-			"Instant Screw ( Counter Hit Savage ,4, ) ": "f,f;db,2;df,1;df,4,1,fp;During Savage ,1,2,1",
+			"Instant Screw ( Counter Hit Savage ,4, ) ": "f,f;db,2;df,1;df,4,1,fp;During Savage ,1,2,1"
 		},
 		"Mini Combos": {
 			"Counter Hit Savage ,db,3;1,2,12": "d,3",
 			"Savage ,4;Savage ,1,1": "d,4,12",
 			"Savage ,db,4": "While Standing ,4;d,4,12",
 			"Savage ,b,3,fp;1,2,4,fp": "During Savage ,2",
-			"Savage ,b,1,2;Counter Hit ,db,4;Counter Hit Savage ,db,3": "(HARD) ,f,fp,2,1",
+			"Savage ,b,1,2;Counter Hit ,db,4;Counter Hit Savage ,db,3": "(HARD) ,f,fp,2,1"
 		},
 		"Wall Combos": {
 			"Low Wallsplat": "1;df,1,fp;During Savage ,2",
-			"Wall Bounce": "f,12;1;df,1,fp;During Savage ,2",
+			"Wall Bounce": "f,12;1;df,1,fp;During Savage ,2"
 		}
 	}
 }
