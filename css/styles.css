@@ -47,7 +47,7 @@ body {
   padding: 2em;
   grid-area: inner-div;
   opacity: 0;
-  animation: fade-in 1s ease-in 5s;
+  animation: fade-in 1s ease-in 1s;
   animation-fill-mode: forwards;
 }
 
@@ -61,79 +61,4 @@ body {
   position: absolute;
   text-align: center;
   color: #fff;
-}
-
-.progress {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 1rem;
-  overflow: hidden;
-  font-size: .75rem;
-  background-color: #39414f;
-  border-radius: .25rem;
-  width: 20vw;
-  animation: fade-out 1s forwards 4.5s;
-  grid-area: inner-div;
-}
-
-.progress-bar {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  color: #fff;
-  text-align: center;
-  background-color: #007bff;
-  animation: width 5s forwards, color 5s forwards, shake .6s cubic-bezier(.36, .07, .19, .97) 3.25s, fade-out 1s forwards 4.5s;
-}
-
-@keyframes width {
-  0% {width:0%;}
-  50% {width:75%;}
-  100% {width:75%;}
-}
-
-@keyframes color {
-  0% {background-color: #007bff;}
-  65% {background-color: #007bff;}
-  67.5% {background-color:#ff0000;}
-  100% {background-color:#ff0000;}
-}
-
-@keyframes shake {
-    10%, 90% {
-        transform: translate3d(-1px, 0, 0);
-    }
-    20%, 80% {
-        transform: translate3d(2px, 0, 0);
-    }
-    30%, 50%, 70% {
-        transform: translate3d(-4px, 0, 0);
-    }
-    40%, 60% {
-        transform: translate3d(4px, 0, 0);
-    }
-}
-
-@keyframes fade-in {
-  from {opacity: 0;}
-  to {opacity: 1;}
-}
-
-@keyframes fade-out {
-  from {opacity: 1;}
-  to {opacity: 0;}
-}
-
-@media only screen and (max-width: 768px) {
-  .progress {
-    width: 80vw !important;
-  }
 }
